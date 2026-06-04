@@ -1,9 +1,9 @@
 import json
 import os
-from fastapi import FastAPI, Header, HTTPException  # type: ignore[import]
+from fastapi import FastAPI, Header, HTTPException
 from pydantic import BaseModel
 
-app = FastAPI(title="Mock Hotel Inventory API")
+app = FastAPI(title="Mock Inventory API")
 
 DATA_FILE = "inventory.json"
 API_KEY = os.getenv("INVENTORY_API_KEY", "demo-inventory-key")
