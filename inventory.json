@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "itemId": "BEER001",
+      "name": "Domestic Lager",
+      "category": "Beverage",
+      "unit": "case",
+      "cost": 32.5
+    }
+  ],
+  "stock": [
+    {
+      "itemId": "BEER001",
+      "locationId": "LOBBY_BAR",
+      "onHand": 12,
+      "parLevel": 30,
+      "reorderPoint": 10
+    }
+  ]
+}
